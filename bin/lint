@@ -9,3 +9,13 @@ puts 'hello'
 # File.foreach('bin/lint').with_index do |line, line_num|
 #   puts "#{line_num}: #{line}"
 # end
+
+first_arg, *the_rest = ARGV
+puts first_arg.to_s
+puts the_rest.to_s
+# first_arg.shift
+# puts first_arg
+
+# input = ARGV
+# puts input.length
+# puts input.to_s
