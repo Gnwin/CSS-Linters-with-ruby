@@ -12,6 +12,6 @@ puts 'hello'
 #   puts line
 # end
 
-File.foreach('lib/lint.rb').with_index do |line, line_num|
+File.foreach('lib/main1.rb').with_index do |line, line_num|
   puts "#{line_num}: #{line}"
 end
