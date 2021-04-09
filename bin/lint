@@ -16,4 +16,3 @@ user_file = ARGV
 # if user_file.to_s.empty?
 
 puts user_file
-
