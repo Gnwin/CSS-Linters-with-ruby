@@ -37,8 +37,8 @@ This is an linter app that checks your css files for errors and provides feedbac
 
 
 - **Running the program**
-  - After your installation is a success, open your shell and run --> '$ lint "filename.css".'
-  - Ensure you follow the right path of the css file you are scanning for errors e.g "./users/user/desktop/files/filename.css"
+  - After your installation is a success, open your shell and run --> '$ lint "files/style.css".'
+  - Ensure you follow the right path of the css file you are scanning for errors e.g "./users/user/desktop/files/style.css"
 
 ## Example
 **File: stylesheet.css (Bad Code)**
