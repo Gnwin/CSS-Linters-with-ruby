@@ -41,17 +41,17 @@ This is an linter app that checks your css files for errors and provides feedbac
   - Ensure you follow the right path of the css file you are scanning for errors e.g "./users/user/desktop/files/style.css"
 
 ## Example
-**File: stylesheet.css (Bad Code)**
+**File: style.css (Bad Code)**
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/Gnwin/Ruby-Linters/app_logic/files/Screenshot%202021-04-11%20at%2017.27.38.png)
 
 **Result**
 
 ![screenshot]()
 
-**File: stylesheet.css (Good Code)**
+**File: style.css (Good Code)**
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/Gnwin/Ruby-Linters/app_logic/files/Screenshot%202021-04-11%20at%2017.28.31.png)
 
 ## Author ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
