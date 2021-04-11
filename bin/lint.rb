@@ -1,4 +1,4 @@
-
+#!/usr/bin/env ruby
 # require './lib/user_file'
 # require './lib/css_checker'
 
