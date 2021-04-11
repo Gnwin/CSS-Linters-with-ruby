@@ -25,7 +25,7 @@ This is an linter app that checks your css files for errors and provides feedbac
 
 - **Terminal(Mac & Linux) or Command Prompt(Windows)**:
  - Clone the repository to your local machine.
- - Go to the bin file directory and locate the linter file.
+ - Go to the bin file directory and locate the linter(lint) file.
  - In the Shell run ln -s $PWD/checker /usr/local/bin/ or sudo ln -s $PWD/checker /usr/local/bin/.
  - **NOTE**: If you have issues installing click [here](https://commandercoriander.net/blog/2013/02/16/making-a-ruby-script-executable/) for guidelines.
 
