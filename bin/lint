@@ -1,32 +1,15 @@
 #!/usr/bin/env ruby
 require './lib/user_file'
-# require './lib/js_checker'
-
-puts 'hello'
-
-# brackets
-# curly braces
-# white spaces in variable names
-# incomplete strings '' ""
-# no ending semicolon on a line 
-
-# Ban a particular method or function
-# Forbid the import of a specific library
-# Require a specific naming convention
-# Require documentation comments for exported functions
-
-# File.foreach('bin/lint').with_index do |line, line_num|
-#   puts "#{line_num}: #{line}"
-# end
+require './lib/css_checker'
 
 user_file = ARGV
-user_file  = user_file[0]
+
+user_file = user_file[0]
 
 user = User.new(user_file)
+
 file_details = user.read_file
 
-p user.class
+css_linter = CssChecker.new(file_details)
 
-p file_details
-
-p user.file_path
+css_linter.check_file

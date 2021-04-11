@@ -1,5 +1,4 @@
-# user_file converter
- class User
+class User
   attr_reader :file_path
 
   def initialize(file_path)
@@ -12,4 +11,4 @@
     user_file.close
     file_details
   end
- end
+end
