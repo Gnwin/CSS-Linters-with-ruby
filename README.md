@@ -1,7 +1,7 @@
 # CSS-Linters --Ruby Capstone project
 This is an linter app that checks your css files for errors and provides feedback
 
- > [Presentation here]()
+ > [Presentation here](https://www.loom.com/share/d045862f377b47529a12c81d88db8845)
 
  ## Objective
  CSS linter is responsible for flagging the following errors:
@@ -32,7 +32,7 @@ This is an linter app that checks your css files for errors and provides feedbac
 - **Understanding the files and Content**
  - lint.rb : Main file which is responsible for running the application.
  - user_file.rb : Contains a UserFile class that is responsible for reading the contents of CSS file provided by user.
- - css_checker : Contains the CssChecker class that is responsible for checking the content of the CSS file provided by the user.
+ - css_checker.rb : Contains the CssChecker class that is responsible for checking the content of the CSS file provided by the user.
  - errors.rb : Contains the Errors module, It consists of several methods responsible for manipulating the CSS file provided by the user.
 
 
@@ -72,4 +72,4 @@ Give me a ⭐️ if you like this project!
 
 - [Microverse](microverse.org)
 - [Ruby DOCS](https://ruby-doc.org/stdlib-2.6.1/libdoc/strscan/rdoc/StringScanner.html)
-- [Rubular Ruby Regular Expression editot](https://rubular.com/)
+- [Rubular Ruby Regular Expression editor](https://rubular.com/)
