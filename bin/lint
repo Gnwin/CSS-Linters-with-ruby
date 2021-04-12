@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
-require './lib/user_file'
-require './lib/css_checker'
+
+require_relative '../lib/user_file'
+require_relative '../lib/css_checker'
 
 user_file = ARGV
 

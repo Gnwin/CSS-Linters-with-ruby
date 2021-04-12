@@ -1,6 +1,6 @@
 # rubocop:disable Metrics/MethodLength
 
-require './lib/errors'
+require_relative './errors'
 require 'colorize'
 
 class CssChecker
