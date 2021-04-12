@@ -9,13 +9,13 @@ user_file = ARGV
 # the file path is the first and only argument in the array
 user_file = user_file[0]
 
-# the file path is passed into the User class to instantiate 
+# the file path is passed into the User class to instantiate
 user = User.new(user_file)
 
 # the user object reads the file and returns an array of file content
 file_details = user.read_file
 
-# the css_linter is initialized with the file content 
+# the css_linter is initialized with the file content
 css_linter = CssChecker.new(file_details)
 
 # the css_linter checks the file
