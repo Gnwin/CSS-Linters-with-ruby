@@ -1,7 +1,7 @@
-require './lib/user_file'
+require_relative '../lib/user_file'
 
 RSpec.describe User do
-  let(:file_path) { 'files/style.css' }
+  let(:file_path) { './files/style.css' }
   let(:result) { nil }
 
   describe '#read_file' do

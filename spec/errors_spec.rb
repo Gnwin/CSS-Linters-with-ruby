@@ -1,4 +1,4 @@
-require './lib/errors'
+require_relative '../lib/errors'
 
 RSpec.describe Errors do
   include Errors

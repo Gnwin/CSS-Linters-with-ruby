@@ -1,4 +1,4 @@
-require './lib/css_checker'
+require_relative '../lib/css_checker'
 
 RSpec.describe CssChecker do
   let(:arr) { %w[hdhfh gdgdg fggfg] }
