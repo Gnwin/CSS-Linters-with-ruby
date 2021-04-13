@@ -75,5 +75,4 @@ Give me a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Microverse](microverse.org)
-- [Ruby DOCS](https://ruby-doc.org/stdlib-2.6.1/libdoc/strscan/rdoc/StringScanner.html)
 - [Rubular Ruby Regular Expression editor](https://rubular.com/)
