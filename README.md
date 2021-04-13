@@ -48,8 +48,7 @@ This is an linter app that checks your css files for errors and provides feedbac
 
 **File: style.css (Good Code)**
 
-![screenshot](https://raw.githubusercontent.com/Gnwin/Ruby-Linters/app_logic/files/
-Screenshot%202021-04-11%20at%2017.28.31.png)
+![screenshot](https://raw.githubusercontent.com/Gnwin/Ruby-Linters/app_logic/files/Screenshot%202021-04-13%20at%2008.21.28.png)
 
 ## Testing
 
