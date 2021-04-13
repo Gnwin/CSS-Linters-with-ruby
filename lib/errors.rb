@@ -1,5 +1,3 @@
-# rubocop:disable Layout/LineLength
-
 require 'colorize'
 
 module Errors
@@ -56,5 +54,3 @@ module Errors
     true
   end
 end
-
-# rubocop:enable Layout/LineLength
