@@ -24,21 +24,17 @@ This is an linter app that checks your css files for errors and provides feedbac
 - **Ruby Enviroment**: if you do not have ruby installed, please visit this [link](https://www.ruby-lang.org/en/documentation/installation/) to install.
 
 - **Terminal(Mac & Linux) or Command Prompt(Windows)**:
- - Clone the repository to your local machine with this command`$ https://github.com/Gnwin/Ruby-Linters.git`
- - Go to the bin file directory and locate the linter(lint) file.
- - In the Shell run ln -s $PWD/checker /usr/local/bin/ or sudo ln -s $PWD/checker /usr/local/bin/.
- - **NOTE**: If you have issues installing click [here](https://commandercoriander.net/blog/2013/02/16/making-a-ruby-script-executable/) for guidelines.
+ - Clone the repository to your local machine with this command `$ git clone https://github.com/Gnwin/Ruby-Linters.git`
+ - Switch to the app_logic branch with command `$ git checkout app_logic`
+ - From the parent directory, run the command `$ ./bin/lint ./files/style.css` ("'./files/style.css' is the path to the sample css file")
+
+ - **NOTE**: To expand your knowledge if you wish, click [here](https://commandercoriander.net/blog/2013/02/16/making-a-ruby-script-executable/) to learn how to make a ruby script executable.
 
 - **Understanding the files and Content**
- - lint.rb : Main file which is responsible for running the application.
+ - lint : Executable file which is responsible for running the application.
  - user_file.rb : Contains a User class that is responsible for reading the contents of CSS file provided by user.
  - css_checker.rb : Contains the CssChecker class that is responsible for checking the content of the CSS file provided by the user.
  - errors.rb : Contains the Errors module, It consists of several methods responsible for manipulating the CSS file provided by the user.
-
-
-- **Running the program**
-  - After your installation is a success, open your shell and run --> '$ lint "files/style.css".'
-  - Ensure you follow the right path of the css file you are scanning for errors e.g "./users/user/desktop/files/style.css"
 
 ## Example
 **File: style.css (Bad Code)**
@@ -56,14 +52,10 @@ Screenshot%202021-04-11%20at%2017.28.31.png)
 
 ## Testing
 
-- clone the repository with this command `$ https://github.com/Gnwin/Ruby-Linters.git`
+- clone the repository with this command `$ git clone https://github.com/Gnwin/Ruby-Linters.git`
 - switch to app_logic branch with this command `$ git checkout app_logic`
 - at the root level of the project run the command `$ rspec`
 - see test results in the terminal
-
-## Live Demo
-
-[Live Demo Link](https://replit.com/@CodeVantage/Ruby-Advanced-Enumerables-RSpec#main.rb)
 
 ## Author ![Hireable](https://img.shields.io/badge/HIREABLE-YES-yellowgreen&?style=for-the-badge)
 
