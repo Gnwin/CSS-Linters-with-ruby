@@ -21,7 +21,8 @@ This is an linter app that checks your css files for errors and provides feedbac
 ## Getting Started
 
 **The project was designed to test capabilities of using Object Oriented Programming in Ruby**
-- **Ruby Environment**: if you do not have ruby installed, please visit this [link](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/installing-ruby-ruby-programming) to install.
+
+**Ruby Environment**: if you do not have ruby installed, please visit this [link](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-programming/lessons/installing-ruby-ruby-programming) to install.
 
 **Terminal(Mac & Linux) or Command Prompt(Windows)**:
   - Clone the repository to your local machine with this command `$ git clone https://github.com/Gnwin/Ruby-Linters.git`
