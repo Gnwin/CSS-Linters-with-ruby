@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
-git_source(:github) { |Ruby-Linters| "https://github.com/Gnwin/Ruby-Linters/tree/app_logic" }
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
 gem 'colorize'
 gem 'rspec'
+
