@@ -27,6 +27,7 @@ This is an linter app that checks your css files for errors and provides feedbac
 **Terminal(Mac & Linux) or Command Prompt(Windows)**:
   - Clone the repository to your local machine with this command `$ git clone https://github.com/Gnwin/Ruby-Linters.git`
   - Switch to the app_logic branch with command `$ git checkout app_logic`
+  - To install gem files required for the project, run the command `$ bundle install`
   - From the parent directory, run the command `$ ./bin/lint ./files/style.css` ("'./files/style.css' is the path to the sample css file")
 
   **NOTE**: To expand your knowledge if you wish, click [here](https://commandercoriander.net/blog/2013/02/16/making-a-ruby-script-executable/) to learn how to make a ruby script executable.
